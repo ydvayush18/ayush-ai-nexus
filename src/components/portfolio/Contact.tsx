@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Reveal, SectionHeading } from "./Reveal";
 
 const channels = [
-  { icon: Mail, label: "Email", value: "your.email@example.com", href: "mailto:your.email@example.com" },
+  { icon: Mail, label: "Email", value: "ydvayush512@gmail.com", href: "mailto:ydvayush512@gmail.com" },
   { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/username", href: "#" },
   { icon: Github, label: "GitHub", value: "github.com/username", href: "#" },
 ];
