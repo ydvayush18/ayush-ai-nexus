@@ -1,7 +1,6 @@
 import { ArrowUpRight, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "./Reveal";
-import aiNeuralCore from "@/assets/ai-neural-core.jpg";
 
 const highlights = ["AI / ML Enthusiast", "Frontend Developer", "Future Technology Explorer"];
 
@@ -80,14 +79,15 @@ export function Hero() {
           <div className="relative aspect-square">
             <div className="absolute inset-0 rounded-full bg-primary/15 blur-3xl" aria-hidden="true" />
             <div className="absolute inset-4 rounded-full border border-glass-border spin-slow" aria-hidden="true" />
+            <div className="absolute inset-10 rounded-full border border-glass-border/60 spin-reverse" aria-hidden="true" />
+            {/* Neural core orb */}
             <div className="relative h-full w-full overflow-hidden rounded-full border border-glass-border float-slow">
-              <img
-                src={aiNeuralCore}
-                alt="3D artificial intelligence neural core with luminous interconnected nodes"
-                width={1024}
-                height={1024}
-                className="h-full w-full object-cover"
-              />
+              <div className="neural-core absolute inset-0 flex items-center justify-center">
+                <div className="neural-core__pulse" />
+                <div className="neural-core__ring" />
+                <div className="neural-core__ring neural-core__ring--2" />
+                <div className="neural-core__nodes" aria-hidden="true" />
+              </div>
             </div>
           </div>
           <div className="glass-panel mt-8 rounded-2xl px-5 py-4">
