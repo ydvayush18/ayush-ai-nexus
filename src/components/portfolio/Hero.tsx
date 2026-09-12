@@ -1,7 +1,6 @@
 import { ArrowUpRight, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "./Reveal";
-import aiNeuralCore from "@/assets/ai-neural-core.jpg";
 
 const highlights = ["AI / ML Enthusiast", "Frontend Developer", "Future Technology Explorer"];
 
