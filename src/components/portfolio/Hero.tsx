@@ -1,7 +1,7 @@
 import { ArrowUpRight, Download, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "./Reveal";
-import heroOrb from "@/assets/hero-orb.jpg";
+import aiNeuralCore from "@/assets/ai-neural-core.jpg";
 
 const highlights = ["AI / ML Enthusiast", "Frontend Developer", "Future Technology Explorer"];
 
@@ -82,8 +82,8 @@ export function Hero() {
             <div className="absolute inset-4 rounded-full border border-glass-border spin-slow" aria-hidden="true" />
             <div className="relative h-full w-full overflow-hidden rounded-full border border-glass-border float-slow">
               <img
-                src={heroOrb}
-                alt="Abstract neural network sphere representing Ayush Yadav's focus on AI and machine learning"
+                src={aiNeuralCore}
+                alt="3D artificial intelligence neural core with luminous interconnected nodes"
                 width={1024}
                 height={1024}
                 className="h-full w-full object-cover"
