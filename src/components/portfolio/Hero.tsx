@@ -86,7 +86,6 @@ export function Hero() {
                 <div className="neural-core__pulse" />
                 <div className="neural-core__ring" />
                 <div className="neural-core__ring neural-core__ring--2" />
-                <div className="neural-core__nodes" aria-hidden="true" />
               </div>
             </div>
           </div>
