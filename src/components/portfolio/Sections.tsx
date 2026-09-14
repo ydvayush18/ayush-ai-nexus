@@ -244,7 +244,7 @@ export function Footer() {
           <a href="#contact" aria-label="LinkedIn" className="hover:text-primary">
             <Linkedin className="size-4" />
           </a>
-          <a href="#contact" aria-label="GitHub" className="hover:text-primary">
+          <a href="https://github.com/ydvayush18" aria-label="GitHub" className="hover:text-primary">
             <Github className="size-4" />
           </a>
         </div>
